@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.eastine.tutu.MainActivity">
+
+    <com.eastine.tutu.customerView.WithBackgroundTextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="29dp"
+        android:gravity="center"
+        android:text="@string/tv_login"
+        android:textColor="@color/red_F4253E"
+        android:textSize="16dp"
+        app:radius="22dp"
+        app:withStrokeColor="@color/red_F4253E"
+        app:withStrokeWidth="0.1dp" />
+
+    <com.eastine.tutu.customerView.WithBackgroundTextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="29dp"
+        android:gravity="center"
+        android:text="@string/tv_login"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:radius="22dp"
+        app:withBackgroundColor="@color/colorPrimary" />
+
+    <com.eastine.tutu.customerView.WithBackgroundTextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="29dp"
+        android:gravity="center"
+        android:text="@string/tv_login"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:radius="22dp"
+        app:withBackgroundColor="@color/colorPrimary"
+        app:withStrokeColor="@color/red_F4253E"
+        app:withStrokeWidth="0.1dp" />
+
+    <com.eastine.tutu.customerView.WithBackgroundTextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="29dp"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/tv_login"
+        android:textColor="@color/red_F4253E"
+        android:textSize="16dp"
+        app:withLeftRadius="22dp"
+        app:withStrokeColor="@color/red_F4253E"
+        app:withStrokeWidth="0.1dp" />
+
+    <com.eastine.tutu.customerView.WithBackgroundTextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="29dp"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/tv_login"
+        android:textColor="@color/red_F4253E"
+        android:textSize="16dp"
+        app:withBottomRightRadius="22dp"
+        app:withStrokeColor="@color/red_F4253E"
+        app:withStrokeWidth="0.1dp"
+        app:withTopLeftRadius="22dp" />
+
+</LinearLayout>

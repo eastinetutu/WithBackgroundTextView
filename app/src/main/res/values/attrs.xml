@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="WithBackgroundTextView">
+        <attr name="radius" format="dimension" />
+        <attr name="withTopLeftRadius" format="dimension" />
+        <attr name="withTopRightRadius" format="dimension" />
+        <attr name="withBottomLeftRadius" format="dimension" />
+        <attr name="withBottomRightRadius" format="dimension" />
+        <attr name="withLeftRadius" format="dimension" />
+        <attr name="withRightRadius" format="dimension" />
+        <attr name="withBackgroundColor" format="color" />
+        <attr name="withStrokeWidth" format="dimension" />
+        <attr name="withStrokeColor" format="color" />
+
+    </declare-styleable>
+
+</resources>
